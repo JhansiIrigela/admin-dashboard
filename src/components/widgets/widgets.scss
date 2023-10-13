@@ -1,0 +1,60 @@
+.widget {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 10px;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  border-radius: 10px;
+  height: 100px;
+
+  .left,
+  .right {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      font-size: 12px;
+      color: gray;
+    }
+    .number {
+      font-size: 25px;
+      font-weight: bolder;
+    }
+    .description {
+      &.positive {
+        color: green;
+      }
+      &.negative {
+        color: red;
+      }
+      font-size: 13px;
+      .icon {
+        font-size: 15px;
+      }
+      .num {
+        font-weight: bolder;
+      }
+    }
+  }
+
+  .left {
+    .icon {
+      font-size: 65px;
+      padding: 15px;
+      background-color: #ddffee;
+      border-radius: 50%;
+      color: green;
+      align-self: center;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+  }
+
+  @media screen and (min-width: 601px) {
+  }
+
+  @media screen and (min-width: 1024px) {
+  }
+}

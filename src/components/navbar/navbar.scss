@@ -1,0 +1,48 @@
+.navbar {
+  height: 55px;
+  border-bottom: 0.5px solid rgb(231, 228, 228);
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+
+  .wrapper {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .search {
+      display: flex;
+      align-items: center;
+      border: 0.5px solid lightgray;
+      border-radius: 5px;
+      padding: 3px;
+
+      .icon {
+        color: gray;
+      }
+    }
+
+    input {
+      border: none;
+      outline: none;
+
+      &::placeholder {
+        font-size: 15px;
+      }
+    }
+
+    .name {
+      display: flex;
+
+      .surname {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      .icon {
+        margin-left: 5px;
+        color: burlywood;
+      }
+    }
+  }
+}
