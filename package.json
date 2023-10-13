@@ -49,3 +49,8 @@
     "gh-pages": "^6.0.0"
   }
 }
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JhansiIrigela/admin-dashboard.git
+git push -u origin main
