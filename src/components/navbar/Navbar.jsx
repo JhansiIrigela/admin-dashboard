@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="wrapper">
         <div className="name">
-          <p className="surname">Hello Shahrukh</p>
+          <p className="surname">Hello Jhansi</p>
           <WavingHandIcon className="icon" />
         </div>
         <div className="search">
